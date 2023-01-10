@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar .logo{
+  position: absolute;
+  width: 121px;
+  height: 21px;
+}
+
+.navbar h1 {
+  color: #0075FF
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  color: black;
+  font-weight: bold;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.Header .fa{
+  position: absolute;
+  width: 19px;
+color:#0075FF;  
+}
+.Header a{
+  position: absolute;
+width: 193px;
+height: 19px;
+left: 312px;
+top: 226px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #0075FF !important;
+}
+
+.Header h1{
+  position: absolute;
+  width: 391px;
+  height: 225px;
+  left: 312px;
+  top: 260px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 75px;
+
+  color: #000000;
+}
+
+.Header p{
+  position: absolute;
+width: 371px;
+height: 38px;
+left: 312px;
+top: 500px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.Header input{
+  box-sizing: border-box;
+
+position: absolute;
+width: 268px;
+height: 37px;
+left: 312px;
+top: 565px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.18);
+border-radius: 5px;
+}
+
+.Header button{
+position: absolute;
+left: 600px;
+top: 565px;
+}
+.Header .coinbasewallet{
+  position: absolute;
+width: 225px;
+height: 429px;
+left: 903px;
+top: 196px;
+}
+
+.Home h1{
+  position: absolute;
+  width: 813px;
+  height: 48px;
+  left: 296px;
+  top: 765px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.Home h6{
+  position: absolute;
+  width: 753px;
+  height: 24px;
+  left: 326px;
+  top: 828px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.Home .section1 img{
+  position: absolute;
+  width: 517px;
+  height: 405px;
+  left: 657px;
+  top: 893px;
+}
+
+.Home .section1 .boxe1 h1{
+  position: absolute;
+  width: 199px;
+  height: 24px;
+  left: 327px;
+  top: 929px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.Home .section1 .boxe1 p{
+  position: absolute;
+  width: 291px;
+  height: 57px;
+  left: 327px;
+  top: 966px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(160, 151, 151, 0.582);
+}
+.Home .section1 .boxe2 h1{
+  position: absolute;
+  width: 199px;
+  height: 24px;
+  left: 327px;
+  top: 1044px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #000000;
+}
+.Home .section1 .boxe2 p{
+  position: absolute;
+  width: 291px;
+  height: 57px;
+  left: 327px;
+  top: 1081px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: rgba(160, 151, 151, 0.582);
+}
+.Home .section1 .boxe3 h1{
+  position: absolute;
+  width: 199px;
+  height: 24px;
+  left: 327px;
+  top: 1159px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #000000;
+}
+.Home .section1 .boxe3 p{
+  position: absolute;
+  width: 291px;
+  height: 57px;
+  left: 327px;
+  top: 1196px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;  
+
+  color: rgba(160, 151, 151, 0.582);
+}
+
+.Home hr{
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  left: 0px;
+  top: 1324px;
+  
+  background: #D9D9D9;
+}
+
+/* SECTION 2 */
+.Home .section2 h1{
+  position: absolute;
+  width: 817px;
+  height: 48px;
+  left: 284px;
+  top: 1382px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  
+  color: #000000;
+}
+.Home .section2 h6{
+  position: absolute;
+  width: 753px;
+  height: 24px;
+  left: 316px;
+  top: 1445px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  
+  color: rgba(160, 151, 151, 0.582);
+}
+/* SECTION 2 FA */
+.Home .section2 .group4 .fa{
+  position: absolute;
+  height: 64px;
+  left: 277px;
+  top: 1568px;
+  color: #0075FF;
+
+}
+.Home .section2 .group5 .fa{
+  position: absolute;
+  height: 61px;
+  left: 680px;
+  top: 1571px;
+  color: #0075FF;
+}
+.Home .section2 .group6 .fa{
+  position: absolute;
+  height: 61px;
+  left: 1083px;
+  top: 1560px;
+  color: #0075FF;
+}
+
+.Home .section2 .group4 h1{
+  position: absolute;
+  width: 184px;
+  height: 30px;
+  left: 224px;
+  top: 1693px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  
+  color: #000000;
+}
+.Home .section2 .group4 p{
+  position: absolute;
+  width: 345px;
+  height: 38px;
+  left: 143px;
+  top: 1738px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: rgba(160, 151, 151, 0.582);
+}
+.Home .section2 .group5 h1{
+  position: absolute;
+  width: 281px;
+  height: 30px;
+  left: 590px;
+  top: 1693px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  
+  
+  color: #000000;
+}
+.Home .section2 .group5 p{
+  position: absolute;
+  width: 345px;
+  height: 57px;
+  left: 557px;
+  top: 1738px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: rgba(160, 151, 151, 0.582);
+}
+.Home .section2 .group6 h1{
+  position: absolute;
+  width: 307px;
+  height: 30px;
+  left: 971px;
+  top: 1693px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+.Home .section2 .group6 p{
+  position: absolute;
+  width: 345px;
+  height: 38px;
+  left: 951px;
+  top: 1738px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: rgba(160, 151, 151, 0.582);
+}
+
+/* SECTION 3 */
+/* .Home .section3{
+  
+position: absolute;
+width: 1440px;
+height: 210px;
+left: 0px;
+top: 2018px;
+
+background: #0075FF;
+} */
+.Home .section3 .group7 h1{
+  position: absolute;
+  width: 179px;
+  height: 68px;
+  left: 226px;
+  top: 2018px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 68px;
+  text-align: center;
+
+  color: black;
+}
+.Home .section3 .group7 p{
+  position: absolute;
+  width: 185px;
+  height: 19px;
+  left: 223px;
+  top: 2100px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #868080;
+  
+}
+
+.Home .section3 .group8 h1{
+  position: absolute;
+  width: 140px;
+  height: 68px;
+  left: 647px;
+  top: 2018px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 68px;  
+  text-align: center;
+  
+  color: black;
+  
+}
+
+.Home .section3 .group8 p{
+  position: absolute;
+  width: 185px;
+  height: 19px;
+  left: 625px;
+  top: 2100px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #868080;
+  
+}
+.Home .section3 .group9 h1{
+  position: absolute;
+  width: 140px;
+  height: 68px;
+  left: 1043px;
+  top: 2018px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 68px;
+  text-align: center;
+  
+  color: black;
+  
+}
+
+.Home .section3 .group9 p{
+  position: absolute;
+  width: 185px;
+  height: 19px;
+  left: 1020px;
+  top: 2100px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #868080;
+  
+}
+
+/* SECTION 4  */
+.Home .section4 h1{
+  
+position: absolute;
+width: 545px;
+height: 48px;
+left: 445px;
+top: 2307px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+}
+
+.Home .section4 h6{
+  position: absolute;
+width: 753px;
+height: 24px;
+left: 341px;
+top: 2370px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: rgba(160, 151, 151, 0.582);
+
+}
+
+/* SECTION 4 FA AND HR */
+.Home .section4 .group10 .fa{
+  position: absolute;
+  width: 113px;
+  height: 90px;
+  left: 319px;
+  top: 2513px;
+color: #0075FF;
+
+}
+.Home .section4 .group10 hr{
+  position: absolute;
+  width: 139px;
+  height: 1px;
+  left: 486px;
+  top: 2558px;
+  
+  background: #000000;
+
+}
+.Home .section4 .group11 .fa{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 666px;
+  top: 2503px;
+color: #0075FF;
+
+}
+.Home .section4 .group11 hr{
+  position: absolute;
+width: 139px;
+height: 1px;
+left: 844px;
+top: 2558px;
+
+background: #000000;
+
+}
+.Home .section4 .group12 .fa{
+  position: absolute;
+  width: 90px;
+  height: 80px;
+  left: 1031px;
+  top: 2503px;
+  
+color: #0075FF;
+
+}
+.Home .section4 .group10 p{
+  position: absolute;
+  width: 178px;
+  height: 24px;
+  left: 280px;
+  top: 2628px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.Home .section4 .group11 p{
+  position: absolute;
+  width: 178px;
+  height: 24px;
+  left: 631px;
+  top: 2623px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.Home .section4 .group12 p{
+  position: absolute;
+  width: 178px;
+  height: 24px;
+  left: 982px;
+  top: 2623px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  
+  color: #000000;
+}
+
+/* FOOTER */
+.Footer img{
+  position: absolute;
+  width: 619px;
+  height: 339px;
+  left: 821px;
+  top: 2773px;
+}
+.Footer h1{
+  
+position: absolute;
+width: 488px;
+height: 96px;
+left: 159px;
+top: 2858px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.Footer p{
+  position: absolute;
+  width: 520px;
+  height: 48px;
+  left: 159px;
+  top: 2989px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(160, 151, 151, 0.582);
+
+}
+.Footer button{
+  position: absolute;
+  width: 131px;
+  left: 159px;
+  top: 3050px;
+
+background: #0075FF;
+border-radius: 5px;
+}
